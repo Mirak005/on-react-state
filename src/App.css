@@ -1,0 +1,36 @@
+
+
+.my-btn{
+    cursor: pointer;
+    outline:0;
+    background:none;
+    border: 0.1px solid rgba(0, 0, 0, 0.534);
+    border-radius: 100%;
+    text-align: center;
+    padding: 0;
+    height: 25px;
+    width: 25px;
+    margin: 10px;
+    transition:  0.3s;
+    box-shadow: #00000063 2px 2px 3px 0px;
+
+
+
+
+}
+
+.my-btn:hover{ 
+    transform: translateY(-2px) ;
+    background-color: rgb(25, 98, 167);
+    color : white;
+    box-shadow: #00000063 2px 4px 3px 0px;
+
+
+}
+
+.my-btn.reset{
+    border-radius:0px ;
+     width:auto ;
+     padding:5px
+    }
+
